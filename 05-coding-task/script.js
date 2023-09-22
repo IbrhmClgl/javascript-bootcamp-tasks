@@ -27,20 +27,14 @@ oddEven(3);
 // 5.3
 const oldYoung = function (num) {
   if (num < 16 && num > 0) {
-    console.log("children");
+    console.log("Children");
   } else if (num < 50 && num > 16) {
-    console.log("young person");
+    console.log("Young person");
   } else if (num > 50) {
-    console.log("elder person");
+    console.log("Elder person");
   } else if ((num = isNaN || num < 0)) {
     console.log("Invalid parameter");
   }
 };
 
-oldYoung("ibrahim");
-
-let x = 3;
-const y = x++;
-
-console.log(x);
-console.log(y);
+oldYoung(78);
