@@ -7,14 +7,14 @@ function removeItem(arr, num) {
   return tempArr;
 }
 
-let arr = ["BMW", "VW", "Audi", "Mercedes"];
+const arr = ["BMW", "VW", "Audi", "Mercedes"];
 console.log(removeItem(arr, 2));
 console.log(arr);
 
 //7.2 coding task
 //
 let cars = ["BMW", "VW", 55, "Audi", 3, "Mercedes", "Lambo", 56, true, "obi"];
-let onlyStrings = [];
+const onlyStrings = [];
 
 function sumOfCharacters(arr) {
   for (let i = 0; i < arr.length; i++) {
